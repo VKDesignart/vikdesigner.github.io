@@ -3,4 +3,303 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#05050a">
+  <meta name="description" content="Vik Designer — branding, identidade visual, social media, design gráfico e websites para marcas que querem comunicar com personalidade.">
   <title>Vik Designer | Branding, Identidade Visual e Design</title>
+  <link rel="icon" type="image/png" href="assets/brand/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="site-noise" aria-hidden="true"></div>
+  <div class="site-orb site-orb--blue" aria-hidden="true"></div>
+  <div class="site-orb site-orb--pink" aria-hidden="true"></div>
+
+  <header class="site-header" id="topo">
+    <a class="brand" href="#inicio" aria-label="Vik Designer — Início">
+      <span class="brand-mark">VD</span>
+      <span class="brand-name">VIK DESIGNER</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Menu mobile" aria-hidden="true">
+    <div class="mobile-menu__inner">
+      <span class="mobile-menu__label">NAVEGAR</span>
+      <a href="#inicio"><small>01</small>Início</a>
+      <a href="#projetos"><small>02</small>Projetos</a>
+      <a href="#servicos"><small>03</small>Serviços</a>
+      <a href="#sobre"><small>04</small>Sobre</a>
+      <a href="#contato"><small>05</small>Contato</a>
+      <p>Design que comunica.<br>Marcas que conectam.</p>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <span class="eyebrow">VIK DESIGNER · BRANDING & VISUAL DESIGN</span>
+        <h1>Design que <em>comunica.</em><br>Marcas que <em>conectam.</em></h1>
+        <p>Estratégia, direção visual e design para transformar marcas em experiências memoráveis, coerentes e reconhecíveis.</p>
+        <div class="hero-meta">
+          <span>IDENTIDADE VISUAL</span>
+          <span>SOCIAL MEDIA</span>
+          <span>DESIGN GRÁFICO</span>
+          <span>WEBSITES</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" data-delay="120">
+        <div class="hero-frame">
+          <img src="assets/brand/hero-showcase.webp" alt="Seleção de projetos da Vik Designer">
+        </div>
+        <div class="hero-seal">
+          <img src="assets/brand/vik-logo.webp" alt="Monograma VD da Vik Designer">
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#manifesto" aria-label="Rolar para conhecer a Vik Designer">
+        <span>SCROLL</span>
+        <i></i>
+      </a>
+    </section>
+
+    <section class="manifesto section" id="manifesto">
+      <div class="manifesto-inner reveal">
+        <span class="section-kicker">VISÃO</span>
+        <p>Uma marca forte não nasce apenas de uma imagem bonita. Ela nasce de <strong>clareza</strong>, ganha força com <strong>estratégia</strong> e se torna memorável através de uma <strong>identidade consistente.</strong></p>
+      </div>
+    </section>
+
+    <section class="projects section" id="projetos">
+      <div class="section-head reveal">
+        <div>
+          <span class="section-kicker">TRABALHOS SELECIONADOS</span>
+          <h2>Projetos que ganham<br><em>universos próprios.</em></h2>
+        </div>
+        <p>Clique em um projeto para abrir o case completo sem sair da página.</p>
+      </div>
+
+      <div class="project-filters reveal" role="group" aria-label="Filtrar projetos">
+        <button class="filter-btn is-active" type="button" data-filter="all">Todos</button>
+        <button class="filter-btn" type="button" data-filter="branding">Branding</button>
+        <button class="filter-btn" type="button" data-filter="digital">Digital</button>
+        <button class="filter-btn" type="button" data-filter="print">Impressos</button>
+      </div>
+
+      <div class="project-grid">
+        <button class="project-card project-card--nah reveal" type="button" data-project="nah" data-categories="branding digital" aria-label="Abrir projeto Nah in Coffee">
+          <div class="project-card__media"><img src="assets/projects/nah/cover.webp" alt="Nah in Coffee — identidade, embalagem e experiência digital"></div>
+          <div class="project-card__body">
+            <div><span>01 / CASE</span><h3>Nah in Coffee</h3></div>
+            <p>Branding · Digital · Experiência</p>
+            <i>↗</i>
+          </div>
+        </button>
+
+        <button class="project-card project-card--tokyo reveal" type="button" data-project="tokyo" data-categories="branding digital" aria-label="Abrir projeto Tokyo.com">
+          <div class="project-card__media"><img src="assets/projects/tokyo/cover.webp" alt="Tokyo.com — branding e direção de arte para moda anime adulta"></div>
+          <div class="project-card__body">
+            <div><span>02 / CASE</span><h3>Tokyo.com</h3></div>
+            <p>Branding · Fashion · Art Direction</p>
+            <i>↗</i>
+          </div>
+        </button>
+
+        <button class="project-card project-card--lua reveal" type="button" data-project="lua" data-categories="branding print" aria-label="Abrir projeto Lua Cheia">
+          <div class="project-card__media"><img src="assets/projects/lua/cover.webp" alt="Lua Cheia — identidade, aplicações e materiais impressos"></div>
+          <div class="project-card__body">
+            <div><span>03 / CASE</span><h3>Lua Cheia</h3></div>
+            <p>Identidade · Packaging · Comunicação</p>
+            <i>↗</i>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <section class="services section" id="servicos">
+      <div class="section-head reveal">
+        <div>
+          <span class="section-kicker">O QUE EU FAÇO</span>
+          <h2>Design pensado para<br><em>funcionar de verdade.</em></h2>
+        </div>
+        <p>Do conceito à aplicação, cada entrega é construída para manter coerência e percepção de valor.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <img src="assets/sections/identity.webp" alt="">
+          <span>01</span>
+          <h3>Identidade Visual</h3>
+          <p>Logotipo, paleta, tipografia, sistema visual e aplicações que tornam a marca reconhecível.</p>
+        </article>
+        <article class="service-card reveal" data-delay="70">
+          <img src="assets/sections/social.webp" alt="">
+          <span>02</span>
+          <h3>Social Media</h3>
+          <p>Direção visual e peças estratégicas para criar uma presença digital consistente.</p>
+        </article>
+        <article class="service-card reveal" data-delay="140">
+          <img src="assets/sections/graphic.webp" alt="">
+          <span>03</span>
+          <h3>Design Gráfico</h3>
+          <p>Embalagens, impressos, materiais institucionais e peças especiais desenvolvidas sob medida.</p>
+        </article>
+        <article class="service-card reveal" data-delay="210">
+          <img src="assets/sections/contact.webp" alt="">
+          <span>04</span>
+          <h3>Web & Direção Digital</h3>
+          <p>Sites, landing pages e experiências digitais com linguagem visual alinhada à marca.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="process section">
+      <div class="process-intro reveal">
+        <span class="section-kicker">PROCESSO</span>
+        <h2>Da ideia à<br><em>marca aplicada.</em></h2>
+      </div>
+      <div class="process-list">
+        <article class="process-step reveal"><b>01</b><div><h3>Imersão</h3><p>Entendo a marca, o público, o contexto e o que precisa mudar.</p></div></article>
+        <article class="process-step reveal"><b>02</b><div><h3>Estratégia</h3><p>Defino direção, posicionamento e linguagem visual antes de desenhar.</p></div></article>
+        <article class="process-step reveal"><b>03</b><div><h3>Criação</h3><p>Estratégia se transforma em identidade, composição e aplicações reais.</p></div></article>
+        <article class="process-step reveal"><b>04</b><div><h3>Entrega</h3><p>Arquivos organizados e uma marca preparada para funcionar no mundo real.</p></div></article>
+      </div>
+    </section>
+
+    <section class="visual-proof section">
+      <div class="section-head reveal">
+        <div><span class="section-kicker">EVOLUÇÃO VISUAL</span><h2>Antes era uma marca.<br><em>Depois, uma identidade.</em></h2></div>
+        <p>Reposicionamento visual também é tornar percepção, coerência e valor visíveis.</p>
+      </div>
+      <div class="wide-art reveal"><img src="assets/sections/before-after.webp" alt="Exemplos de antes e depois em projetos da Vik Designer"></div>
+    </section>
+
+    <section class="about section" id="sobre">
+      <div class="about-visual reveal">
+        <div class="about-orbit"><img src="assets/brand/vik-logo.webp" alt="Vik Designer"></div>
+        <span class="about-word">SOBRE</span>
+      </div>
+      <div class="about-copy reveal" data-delay="100">
+        <span class="section-kicker">SOBRE A VIK DESIGNER</span>
+        <h2>Design não é só estética.<br><em>É estratégia.</em></h2>
+        <p>Atuo no desenvolvimento de marcas e soluções visuais que comunicam com clareza e personalidade. Meu trabalho envolve branding, identidade visual, social media, materiais gráficos e experiências digitais, sempre alinhados ao posicionamento e aos objetivos de cada projeto.</p>
+        <p>O objetivo é simples: transformar ideias em sistemas visuais consistentes, bonitos e prontos para serem usados.</p>
+        <div class="about-tags"><span>Branding</span><span>Identidade Visual</span><span>Social Media</span><span>Web Design</span></div>
+      </div>
+    </section>
+
+    <section class="testimonial-strip section">
+      <div class="section-head reveal">
+        <div><span class="section-kicker">PERCEPÇÃO DE VALOR</span><h2>O design visto por quem<br><em>viveu o processo.</em></h2></div>
+      </div>
+      <div class="wide-art reveal"><img src="assets/sections/testimonials.webp" alt="Depoimentos de projetos atendidos pela Vik Designer"></div>
+    </section>
+
+    <section class="contact section" id="contato">
+      <div class="contact-copy reveal">
+        <span class="section-kicker">VAMOS CRIAR?</span>
+        <h2>Sua marca está comunicando<br>o valor que <em>realmente tem?</em></h2>
+        <p>Conte um pouco sobre seu projeto. O formulário abaixo prepara uma mensagem pronta para você enviar pelo canal que preferir.</p>
+      </div>
+
+      <form class="contact-form reveal" id="contact-form">
+        <label><span>Seu nome</span><input name="name" type="text" autocomplete="name" required placeholder="Como posso te chamar?"></label>
+        <label><span>Serviço</span><select name="service" required><option value="">Selecione</option><option>Identidade Visual</option><option>Social Media</option><option>Design Gráfico</option><option>Website / Landing Page</option><option>Outro projeto</option></select></label>
+        <label class="full"><span>Conte sobre o projeto</span><textarea name="message" rows="5" required placeholder="O que você precisa, prazo, objetivo e qualquer detalhe importante..."></textarea></label>
+        <button class="submit-btn" type="submit">Preparar mensagem <i>↗</i></button>
+        <p class="form-note" id="form-note" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <span class="brand-mark">VD</span>
+      <h2>VIK DESIGNER</h2>
+      <p>Design que comunica.<br>Marcas que conectam.</p>
+    </div>
+    <div class="footer-col"><h3>Explorar</h3><a href="#inicio">Início</a><a href="#projetos">Projetos</a><a href="#servicos">Serviços</a><a href="#sobre">Sobre</a></div>
+    <div class="footer-col"><h3>Serviços</h3><span>Identidade Visual</span><span>Social Media</span><span>Design Gráfico</span><span>Websites</span></div>
+    <div class="footer-col"><h3>Contato</h3><a href="#contato">Solicitar orçamento</a><span>Atendimento online</span><span>Brasil</span></div>
+    <div class="footer-bottom"><span>© 2026 VIK DESIGNER</span><span>Todos os direitos reservados.</span><a href="#topo">Voltar ao topo ↑</a></div>
+  </footer>
+
+  <div class="case-modal" id="case-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="case-title">
+    <button class="case-backdrop" type="button" aria-label="Fechar projeto"></button>
+    <div class="case-panel" tabindex="-1">
+      <div class="case-toolbar">
+        <span id="case-counter">01 / 03</span>
+        <button class="case-close" type="button" aria-label="Fechar projeto">×</button>
+      </div>
+      <div class="case-content" id="case-content"></div>
+    </div>
+  </div>
+
+  <template id="case-nah">
+    <article class="case case--nah">
+      <header class="case-hero">
+        <span class="case-label">CASE 01 · BRANDING · DIGITAL · EXPERIÊNCIA</span>
+        <h2 id="case-title">Nah in Coffee</h2>
+        <p>Uma identidade acolhedora para uma marca de cestas e presentes, traduzida em embalagem, experiência digital e materiais de comunicação.</p>
+        <img src="assets/projects/nah/cover.webp" alt="Visão geral do projeto Nah in Coffee">
+      </header>
+      <section class="case-text"><span>O PROJETO</span><div><h3>Presentes que criam momentos.</h3><p>O sistema visual trabalha verde oliva, creme e detalhes quentes para transmitir cuidado, sofisticação e proximidade. A identidade se estende de embalagens e cestas ao ambiente digital, mantendo a mesma sensação em cada ponto de contato.</p></div></section>
+      <div class="case-gallery two"><img src="assets/projects/nah/case-01.webp" alt="Direção visual Nah in Coffee"><img src="assets/projects/nah/case-02.webp" alt="Identidade e aplicações Nah in Coffee"></div>
+      <div class="case-gallery one"><img src="assets/projects/nah/site-live.webp" alt="Site da Nah in Coffee"></div>
+      <div class="case-gallery two"><img src="assets/projects/nah/case-03.webp" alt="Detalhes e aplicações Nah in Coffee"><img src="assets/projects/nah/case-04.webp" alt="Experiência e presença digital Nah in Coffee"></div>
+      <section class="case-deliverables"><span>ENTREGAS</span><ul><li>Identidade visual</li><li>Direção de arte</li><li>Aplicações de embalagem</li><li>Materiais digitais</li><li>Experiência web</li></ul></section>
+      <button class="case-next" type="button" data-next="tokyo">Próximo projeto <strong>Tokyo.com</strong> →</button>
+    </article>
+  </template>
+
+  <template id="case-tokyo">
+    <article class="case case--tokyo">
+      <header class="case-hero">
+        <span class="case-label">CASE 02 · BRANDING · FASHION · ART DIRECTION</span>
+        <h2 id="case-title">Tokyo.com</h2>
+        <p>Identidade urbana e madura para uma marca de roupas de anime voltada ao público adulto, unindo moda, cultura japonesa e direção de arte digital.</p>
+        <img src="assets/projects/tokyo/cover.webp" alt="Visão geral do projeto Tokyo.com">
+      </header>
+      <section class="case-text"><span>O CONCEITO</span><div><h3>Anime com linguagem de moda.</h3><p>Preto, vermelho e branco constroem uma presença forte e adulta. O universo visual combina referências japonesas, composição editorial, estampas e aplicações pensadas para funcionar tanto nas peças quanto no ambiente digital.</p></div></section>
+      <div class="case-gallery two"><img src="assets/projects/tokyo/case-01.webp" alt="Cultura urbana Tokyo.com"><img src="assets/projects/tokyo/case-02.webp" alt="Estampas e aplicações Tokyo.com"></div>
+      <div class="case-gallery one"><img src="assets/projects/tokyo/case-03.webp" alt="Guia de marca Tokyo.com"></div>
+      <div class="case-gallery one"><img src="assets/projects/tokyo/case-04.webp" alt="Aplicações de branding Tokyo.com"></div>
+      <section class="case-deliverables"><span>ENTREGAS</span><ul><li>Branding</li><li>Identidade visual</li><li>Direção de arte</li><li>Estampas</li><li>Aplicações digitais</li></ul></section>
+      <button class="case-next" type="button" data-next="lua">Próximo projeto <strong>Lua Cheia</strong> →</button>
+    </article>
+  </template>
+
+  <template id="case-lua">
+    <article class="case case--lua">
+      <header class="case-hero">
+        <span class="case-label">CASE 03 · IDENTIDADE · PACKAGING · COMUNICAÇÃO</span>
+        <h2 id="case-title">Lua Cheia</h2>
+        <p>Uma identidade delicada para uma marca de quiches e tortas, aplicada em materiais impressos, embalagem e comunicação visual real.</p>
+        <img src="assets/projects/lua/cover.webp" alt="Visão geral do projeto Lua Cheia">
+      </header>
+      <section class="case-text"><span>O PROJETO</span><div><h3>Delicadeza aplicada no mundo real.</h3><p>O símbolo original da Lua Cheia, a paleta creme, blush e marrom e os elementos florais criam uma linguagem suave e reconhecível. O foco do case é mostrar aplicações que realmente foram produzidas: sacola, material impresso, recortes e desenvolvimento para impressão.</p></div></section>
+      <div class="case-gallery two portrait"><img src="assets/projects/lua/logo.webp" alt="Logo original Lua Cheia"><img src="assets/projects/lua/photo.webp" alt="Sacola e produto Lua Cheia"></div>
+      <div class="case-gallery two portrait"><img src="assets/projects/lua/flyer.webp" alt="Material impresso Lua Cheia"><img src="assets/projects/lua/workstation.webp" alt="Processo de preparação de material Lua Cheia no computador"></div>
+      <section class="case-deliverables"><span>ENTREGAS</span><ul><li>Identidade visual</li><li>Aplicações gráficas</li><li>Material impresso</li><li>Recortes e adesivos</li><li>Preparação para produção</li></ul></section>
+      <button class="case-next" type="button" data-next="nah">Voltar ao primeiro projeto <strong>Nah in Coffee</strong> →</button>
+    </article>
+  </template>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
